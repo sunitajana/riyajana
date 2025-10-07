@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* ............................................................................. */
+.main-right{
+    width: 82%;
+    height:650px;
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 0;
+    right: 0;
+    background-color: #ebeff3;
+    overflow: auto;
+}
+/* ....................................................................................... */
+.main-right .button-main{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-right .button{
+    padding: 10px 20px;
+    color: #727f96;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .18);
+    border: none;
+    font-size: 17PX;
+    margin: 20px 5%;
+    /* border: 1px solid red; */
+     border-radius: 5px;
+}
+.main-right .button1{
+    width: 170PX;
+    padding: 10px 20px;
+    color: #727f96;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .18);
+    border: none;
+    font-size: 17PX;
+    margin: 20px 5%;
+     border-radius: 5px;
+}
+.main-right .button-main .button-inner{
+    display: flex;
+    width: 100%;
+    margin-right: 4%;
+    /* border: 1PX SOLID RED; */
+}
+.main-right .button-main .button-inner button{
+    display: flex;
+}
+.main-right .button i{
+    margin-right: 5px;
+}
+.main-right .button1 i{
+    margin-right: 5px;
+}
+.main-right .search-bar{
+    width: 320px;
+    height: 50px;
+    /* border: 1px solid red; */
+       box-shadow: 0 0 10px rgba(0, 0, 0, .18);
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-right .search-bar i{
+    margin-right: 15px;
+}
+.main-right .search-bar input{
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color:#ebeff3;
+    /* border: 1px solid red; */
+}
+.main-right .search-bar input::placeholder{
+    font-size: 15px;
+}
+table{
+    width: 90%;
+    margin:auto;
+      box-shadow: 0 0 10px rgba(7, 7, 7, 0.18);
+    border-collapse:collapse;
+
+}
+table th{
+    padding:20px 10px;
+    background:#050b1c;
+    color:#727f96;
+    font-size:18px;
+    border: none;
+}
+table td{
+    text-align:center;
+    background:white;
+    padding: 20px 10px;
+    font-size:15px;
+    color:#050b1c;
+    border: none;
+    border-bottom: 1px solid gray;
+   
+}
+table .td{
+    text-align:center;
+    background:white;
+    padding: 20px 10px;
+    font-size:15px;
+    color:hsl(224, 70%, 6%);
+   
+}
+table .td i{
+    cursor:pointer;
+    font-size: 20px;
+}
+.sunita:hover td{
+    background:rgb(0,0,0,0.2);
+}
+.rama td{
+    background-color:rgb(0,0,0,0.2);
+}
+tr:hover td{
+    background:white;
+}
+table tr .td .td-inner{
+width: 100px;
+height: 100px;
+border-radius: 10px;
+ box-shadow: 0 0 10px rgba(7, 7, 7, 0.18);
+background-color: white;
+ display: none;
+ position: relative;
+}
+table tr .td .approve-button{
+  padding:10px;
+  border-radius:10px;
+  border:none;
+  outline:none;
+  color:white;
+  background:rgb(52, 207, 65);
+  font-size:18px;
+ }
+ table tr .td .reject-button{
+ padding:10px;
+ border-radius:10px;
+ border:none;
+ outline:none;
+ color:red;
+ background:rgb(242, 45, 45);
+font-size:18px;
+}
+table tr .td .td-inner ul li{
+    padding: 6px 0px;
+ }

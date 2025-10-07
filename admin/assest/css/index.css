@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* ............................................................................. */
+.main-right{
+    width: 82%;
+    height:650px;
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 0;
+    right: 0;
+    background-color: #ebeff3;
+    overflow: auto;
+}
+/* ....................................................................................... */
+.main-right .row{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+.main-right .row .col{
+    width: 20%;
+    height: 80px;
+    border-bottom: 3px solid rgb(13, 182, 13);
+    margin: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, .18);
+    border-radius: 5px;
+    background-color: rgb(162, 237, 162);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-right .row .col .left{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+    background-color: green;
+    border-radius: 50%;
+     display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.main-right .row .col .left i{
+    color: white;
+    font-size: 20px;
+}
+.main-right .row .col .right{
+    width: 150px;
+    height: 60px;
+    align-content: center;
+    /* border: 1px solid red; */
+}
+.main-right .row .col .right P{
+    margin: 0;
+    font-size: 12PX;
+}
+.main-right .row .col .right H2{
+    font-size: 25PX;
+}
+.main-right .row .col .right H2 i{
+    transform: rotate(180deg);
+}
